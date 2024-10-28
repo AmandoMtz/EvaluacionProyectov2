@@ -1,0 +1,131 @@
+.account-overview-container {
+  max-width: 900px; /* Aumenta el ancho máximo para más espacio */
+  margin: 0 auto;
+  padding: 30px; /* Aumenta el padding general */
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Aumenta el espacio debajo del encabezado */
+}
+
+.robot-image {
+  width: 100px; /* Aumenta el tamaño de la imagen del robot */
+  height: auto;
+  margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+.chopping-title {
+  font-size: 56px; /* Aumenta aún más el tamaño del texto */
+  margin: 0;
+  padding: 10px; /* Espacio dentro del contorno amarillo */
+  background-color: yellow; /* Color de fondo amarillo para el contorno */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px; /* Aumenta el ancho del campo de búsqueda */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search-icon {  
+  width: 30px; /* Ajusta el tamaño de la imagen de búsqueda */
+  height: auto;
+  cursor: pointer;
+}
+
+.account-nav {
+  display: flex;
+  justify-content: center; /* Centra los enlaces de navegación */
+  flex-wrap: wrap; /* Permite que se envuelvan en pantallas más pequeñas */
+  margin: 30px 0; /* Aumenta el margen superior e inferior */
+}
+
+.account-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px; /* Tamaño de fuente para mejorar la legibilidad */
+  margin: 0 15px; /* Espacio entre los enlaces */
+}
+
+.account-content {
+  text-align: center; /* Centra el contenido dentro de account-content */
+  margin-top: 20px; /* Añade un margen superior */
+}
+
+.membership-details {
+  border: 1px solid #ccc;
+  padding: 30px; /* Mantén el padding para que todo esté bien distribuido */
+  background-color: #fff;
+  margin-bottom: 30px; /* Añade espacio inferior */
+  text-align: center; /* Asegúrate de que el texto esté centrado */
+}
+
+.membership-title {
+  font-size: 42px; /* Tamaño grande para el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.renew-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px; /* Aumenta el tamaño del botón */
+  cursor: pointer;
+  font-size: 18px; /* Aumenta el tamaño de fuente del botón */
+  border-radius: 5px; /* Bordes redondeados para el botón */
+  transition: background-color 0.3s; /* Efecto de transición */
+}
+
+.renew-button:hover {
+  background-color: #0056b3; /* Color al pasar el ratón */
+}
+
+.user-info {
+  margin: 20px 0;
+  font-size: 18px; /* Aumenta el tamaño de la fuente de la información del usuario */
+}
+
+.renewal-info {
+  margin-top: 10px;
+  font-size: 16px; /* Ajusta el tamaño de la fuente de la información de renovación */
+}
+
+.no-membership-info {
+  background-color: #f0f8ff; /* Fondo claro para destacar la información */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px; /* Espacio superior para la información */
+  color: #dc3545; /* Color de texto para advertencias */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+  font-weight: bold; /* Negrita para mayor énfasis */
+  text-align: center; /* Centra el texto */
+}
+
+.account-info {
+  background-color: #f0f8ff; /* Fondo claro para destacar la información */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center; /* Centra el texto */
+}
+
+.help-info {
+  background-color: #f0f8ff; /* Fondo claro para destacar la información */
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center; /* Centra el texto */
+}
